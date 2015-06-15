@@ -1,0 +1,435 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0A4398D15117457D3587B363 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FCC5492629F6942BEE1BE1BE /* Foundation.framework */; };
+		2BCF7034668932FA500216D5 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD8A7882F4F4EBD84178520C /* Security.framework */; };
+		7B6C6E55DFB860F7335554FD /* Pods-STEiN-Protocol-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 49E11D12667DD7F2FB657880 /* Pods-STEiN-Protocol-dummy.m */; };
+		902BEF5CB651182D8D04C797 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FCC5492629F6942BEE1BE1BE /* Foundation.framework */; };
+		951DA36B78B56A43C53DA034 /* UIDevice+PasscodeStatus.m in Sources */ = {isa = PBXBuildFile; fileRef = 39223044ADEDBE3FA1350AAE /* UIDevice+PasscodeStatus.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		A0D5286A132101F73B306AC8 /* Pods-STEiN-Protocol-UIDevice-PasscodeStatus-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DBB9B6ABEA4338DAA749783D /* Pods-STEiN-Protocol-UIDevice-PasscodeStatus-dummy.m */; };
+		A5F1A8B3F34F826CDAFDC546 /* UIDevice+PasscodeStatus.h in Headers */ = {isa = PBXBuildFile; fileRef = 6F8A4FBD6685D0F8DC01CD84 /* UIDevice+PasscodeStatus.h */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9AA96CB28C8C39352A258E21 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CB49CA5F1C5D010ADFE64DE4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FD6EA5D3DB6C49889523B66E;
+			remoteInfo = "Pods-STEiN-Protocol-UIDevice-PasscodeStatus";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0F9FE595B9D00B82BB46A7D0 /* Pods-STEiN-Protocol-UIDevice-PasscodeStatus-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-STEiN-Protocol-UIDevice-PasscodeStatus-prefix.pch"; sourceTree = "<group>"; };
+		14FE9FACF0574DA071467B03 /* Pods-STEiN-Protocol-UIDevice-PasscodeStatus.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-STEiN-Protocol-UIDevice-PasscodeStatus.xcconfig"; sourceTree = "<group>"; };
+		1BDF62795387DEF79BBF8427 /* Pods-STEiN-Protocol.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-STEiN-Protocol.release.xcconfig"; sourceTree = "<group>"; };
+		1F10FB74DC56260C2735116A /* Pods-STEiN-Protocol-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-STEiN-Protocol-acknowledgements.markdown"; sourceTree = "<group>"; };
+		201CD9BEB859374916F135D9 /* Pods-STEiN-Protocol-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-STEiN-Protocol-acknowledgements.plist"; sourceTree = "<group>"; };
+		39223044ADEDBE3FA1350AAE /* UIDevice+PasscodeStatus.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIDevice+PasscodeStatus.m"; path = "Source/UIDevice+PasscodeStatus.m"; sourceTree = "<group>"; };
+		463DAE4C65B22B57B3E35C9D /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		49E11D12667DD7F2FB657880 /* Pods-STEiN-Protocol-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-STEiN-Protocol-dummy.m"; sourceTree = "<group>"; };
+		6F8A4FBD6685D0F8DC01CD84 /* UIDevice+PasscodeStatus.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIDevice+PasscodeStatus.h"; path = "Source/UIDevice+PasscodeStatus.h"; sourceTree = "<group>"; };
+		8B71810A872B50331160B253 /* Pods-STEiN-Protocol.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-STEiN-Protocol.debug.xcconfig"; sourceTree = "<group>"; };
+		8C080AE28E7E8DF436721BED /* Pods-STEiN-Protocol-UIDevice-PasscodeStatus-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-STEiN-Protocol-UIDevice-PasscodeStatus-Private.xcconfig"; sourceTree = "<group>"; };
+		A0D4427E5B5662CFD06110C9 /* Pods-STEiN-Protocol-environment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-STEiN-Protocol-environment.h"; sourceTree = "<group>"; };
+		CD8A7882F4F4EBD84178520C /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/Security.framework; sourceTree = DEVELOPER_DIR; };
+		DBB9B6ABEA4338DAA749783D /* Pods-STEiN-Protocol-UIDevice-PasscodeStatus-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-STEiN-Protocol-UIDevice-PasscodeStatus-dummy.m"; sourceTree = "<group>"; };
+		E2E6C05A353690E7786699F1 /* Pods-STEiN-Protocol-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-STEiN-Protocol-resources.sh"; sourceTree = "<group>"; };
+		EE4CA6B54CF5B73534B95EB6 /* libPods-STEiN-Protocol.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-STEiN-Protocol.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA78378EE66B956AE7D78E22 /* libPods-STEiN-Protocol-UIDevice-PasscodeStatus.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-STEiN-Protocol-UIDevice-PasscodeStatus.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FCC5492629F6942BEE1BE1BE /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		077CF4EFC3417F2211E058AA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				902BEF5CB651182D8D04C797 /* Foundation.framework in Frameworks */,
+				2BCF7034668932FA500216D5 /* Security.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D46A0077891AE666BACEF72B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0A4398D15117457D3587B363 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		135F6C7603AE1CC3E9F14D8A /* UIDevice-PasscodeStatus */ = {
+			isa = PBXGroup;
+			children = (
+				6F8A4FBD6685D0F8DC01CD84 /* UIDevice+PasscodeStatus.h */,
+				39223044ADEDBE3FA1350AAE /* UIDevice+PasscodeStatus.m */,
+				E37879236E9E891A09135AD2 /* Support Files */,
+			);
+			path = "UIDevice-PasscodeStatus";
+			sourceTree = "<group>";
+		};
+		546D22B20133D939294CF014 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				FCC5492629F6942BEE1BE1BE /* Foundation.framework */,
+				CD8A7882F4F4EBD84178520C /* Security.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		5E1C7BFD397A478AAA646C6F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				135F6C7603AE1CC3E9F14D8A /* UIDevice-PasscodeStatus */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		6E827ED08C9C30BB61427F85 /* Pods-STEiN-Protocol */ = {
+			isa = PBXGroup;
+			children = (
+				1F10FB74DC56260C2735116A /* Pods-STEiN-Protocol-acknowledgements.markdown */,
+				201CD9BEB859374916F135D9 /* Pods-STEiN-Protocol-acknowledgements.plist */,
+				49E11D12667DD7F2FB657880 /* Pods-STEiN-Protocol-dummy.m */,
+				A0D4427E5B5662CFD06110C9 /* Pods-STEiN-Protocol-environment.h */,
+				E2E6C05A353690E7786699F1 /* Pods-STEiN-Protocol-resources.sh */,
+				8B71810A872B50331160B253 /* Pods-STEiN-Protocol.debug.xcconfig */,
+				1BDF62795387DEF79BBF8427 /* Pods-STEiN-Protocol.release.xcconfig */,
+			);
+			name = "Pods-STEiN-Protocol";
+			path = "Target Support Files/Pods-STEiN-Protocol";
+			sourceTree = "<group>";
+		};
+		BF248067F9CC9CCD0C4BE4ED /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EE4CA6B54CF5B73534B95EB6 /* libPods-STEiN-Protocol.a */,
+				FA78378EE66B956AE7D78E22 /* libPods-STEiN-Protocol-UIDevice-PasscodeStatus.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CFF14732EE64BA22C29CC509 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				546D22B20133D939294CF014 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E37879236E9E891A09135AD2 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				14FE9FACF0574DA071467B03 /* Pods-STEiN-Protocol-UIDevice-PasscodeStatus.xcconfig */,
+				8C080AE28E7E8DF436721BED /* Pods-STEiN-Protocol-UIDevice-PasscodeStatus-Private.xcconfig */,
+				DBB9B6ABEA4338DAA749783D /* Pods-STEiN-Protocol-UIDevice-PasscodeStatus-dummy.m */,
+				0F9FE595B9D00B82BB46A7D0 /* Pods-STEiN-Protocol-UIDevice-PasscodeStatus-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Pods-STEiN-Protocol-UIDevice-PasscodeStatus";
+			sourceTree = "<group>";
+		};
+		EB974EA8F5CCC6EE26608B3A /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				6E827ED08C9C30BB61427F85 /* Pods-STEiN-Protocol */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		F304BA23B21062567076E52D = {
+			isa = PBXGroup;
+			children = (
+				463DAE4C65B22B57B3E35C9D /* Podfile */,
+				CFF14732EE64BA22C29CC509 /* Frameworks */,
+				5E1C7BFD397A478AAA646C6F /* Pods */,
+				BF248067F9CC9CCD0C4BE4ED /* Products */,
+				EB974EA8F5CCC6EE26608B3A /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		BA1A4AA4A0D37B932FA32CC8 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A5F1A8B3F34F826CDAFDC546 /* UIDevice+PasscodeStatus.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		335B07A2EE0AB78AF2934D46 /* Pods-STEiN-Protocol */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AE3B735998000035B2BB3895 /* Build configuration list for PBXNativeTarget "Pods-STEiN-Protocol" */;
+			buildPhases = (
+				3C9C47660767321D726FEF1D /* Sources */,
+				D46A0077891AE666BACEF72B /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CC471A7AAA874A184781A6FC /* PBXTargetDependency */,
+			);
+			name = "Pods-STEiN-Protocol";
+			productName = "Pods-STEiN-Protocol";
+			productReference = EE4CA6B54CF5B73534B95EB6 /* libPods-STEiN-Protocol.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		FD6EA5D3DB6C49889523B66E /* Pods-STEiN-Protocol-UIDevice-PasscodeStatus */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 10A9100CA91D8F944C49FB0C /* Build configuration list for PBXNativeTarget "Pods-STEiN-Protocol-UIDevice-PasscodeStatus" */;
+			buildPhases = (
+				F5D5516123273E6182D714F3 /* Sources */,
+				077CF4EFC3417F2211E058AA /* Frameworks */,
+				BA1A4AA4A0D37B932FA32CC8 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-STEiN-Protocol-UIDevice-PasscodeStatus";
+			productName = "Pods-STEiN-Protocol-UIDevice-PasscodeStatus";
+			productReference = FA78378EE66B956AE7D78E22 /* libPods-STEiN-Protocol-UIDevice-PasscodeStatus.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CB49CA5F1C5D010ADFE64DE4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+			};
+			buildConfigurationList = 951C781C55F91F7638D03B97 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = F304BA23B21062567076E52D;
+			productRefGroup = BF248067F9CC9CCD0C4BE4ED /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				335B07A2EE0AB78AF2934D46 /* Pods-STEiN-Protocol */,
+				FD6EA5D3DB6C49889523B66E /* Pods-STEiN-Protocol-UIDevice-PasscodeStatus */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3C9C47660767321D726FEF1D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7B6C6E55DFB860F7335554FD /* Pods-STEiN-Protocol-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F5D5516123273E6182D714F3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A0D5286A132101F73B306AC8 /* Pods-STEiN-Protocol-UIDevice-PasscodeStatus-dummy.m in Sources */,
+				951DA36B78B56A43C53DA034 /* UIDevice+PasscodeStatus.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CC471A7AAA874A184781A6FC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-STEiN-Protocol-UIDevice-PasscodeStatus";
+			target = FD6EA5D3DB6C49889523B66E /* Pods-STEiN-Protocol-UIDevice-PasscodeStatus */;
+			targetProxy = 9AA96CB28C8C39352A258E21 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		4F018CE277C7BB694E5FD797 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = "RELEASE=1";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		57255DA5FA5B87DF5A837EC1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8B71810A872B50331160B253 /* Pods-STEiN-Protocol.debug.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		6202E88ADCDDA4AF0BC6D049 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1BDF62795387DEF79BBF8427 /* Pods-STEiN-Protocol.release.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		8E92C8D8AFED5FE85301266B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		DF926A91AC59F3D68143425E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8C080AE28E7E8DF436721BED /* Pods-STEiN-Protocol-UIDevice-PasscodeStatus-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-STEiN-Protocol-UIDevice-PasscodeStatus/Pods-STEiN-Protocol-UIDevice-PasscodeStatus-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		E0E2D4B677328CAC580248FD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8C080AE28E7E8DF436721BED /* Pods-STEiN-Protocol-UIDevice-PasscodeStatus-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-STEiN-Protocol-UIDevice-PasscodeStatus/Pods-STEiN-Protocol-UIDevice-PasscodeStatus-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		10A9100CA91D8F944C49FB0C /* Build configuration list for PBXNativeTarget "Pods-STEiN-Protocol-UIDevice-PasscodeStatus" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E0E2D4B677328CAC580248FD /* Debug */,
+				DF926A91AC59F3D68143425E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		951C781C55F91F7638D03B97 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8E92C8D8AFED5FE85301266B /* Debug */,
+				4F018CE277C7BB694E5FD797 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AE3B735998000035B2BB3895 /* Build configuration list for PBXNativeTarget "Pods-STEiN-Protocol" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				57255DA5FA5B87DF5A837EC1 /* Debug */,
+				6202E88ADCDDA4AF0BC6D049 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CB49CA5F1C5D010ADFE64DE4 /* Project object */;
+}

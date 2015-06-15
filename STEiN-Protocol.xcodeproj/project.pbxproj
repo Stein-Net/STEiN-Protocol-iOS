@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		EB1D3671210E1333678CEBEB /* libPods-STEiN-Protocol.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 43B2A01246C2DE10F4873D80 /* libPods-STEiN-Protocol.a */; };
 		F3CDCC5F1B2F2BB500D7EB17 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3CDCC5E1B2F2BB500D7EB17 /* AppDelegate.swift */; };
 		F3CDCC621B2F2BB500D7EB17 /* STEiN_Protocol.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = F3CDCC601B2F2BB500D7EB17 /* STEiN_Protocol.xcdatamodeld */; };
 		F3CDCC641B2F2BB500D7EB17 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3CDCC631B2F2BB500D7EB17 /* ViewController.swift */; };
@@ -27,6 +28,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		43B2A01246C2DE10F4873D80 /* libPods-STEiN-Protocol.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-STEiN-Protocol.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		595B2D11C53A0C49FEB324F8 /* Pods-STEiN-Protocol.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-STEiN-Protocol.release.xcconfig"; path = "Pods/Target Support Files/Pods-STEiN-Protocol/Pods-STEiN-Protocol.release.xcconfig"; sourceTree = "<group>"; };
+		607C367BCD1C18EFE1C7EBAD /* Pods-STEiN-Protocol.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-STEiN-Protocol.debug.xcconfig"; path = "Pods/Target Support Files/Pods-STEiN-Protocol/Pods-STEiN-Protocol.debug.xcconfig"; sourceTree = "<group>"; };
 		F3CDCC591B2F2BB500D7EB17 /* STEiN-Protocol.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "STEiN-Protocol.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F3CDCC5D1B2F2BB500D7EB17 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F3CDCC5E1B2F2BB500D7EB17 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -45,6 +49,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EB1D3671210E1333678CEBEB /* libPods-STEiN-Protocol.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -58,12 +63,31 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		80100A0C90546B852B05DA84 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				43B2A01246C2DE10F4873D80 /* libPods-STEiN-Protocol.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C1CAE2E7B752E5F049C7813E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				607C367BCD1C18EFE1C7EBAD /* Pods-STEiN-Protocol.debug.xcconfig */,
+				595B2D11C53A0C49FEB324F8 /* Pods-STEiN-Protocol.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		F3CDCC501B2F2BB500D7EB17 = {
 			isa = PBXGroup;
 			children = (
 				F3CDCC5B1B2F2BB500D7EB17 /* STEiN-Protocol */,
 				F3CDCC741B2F2BB500D7EB17 /* STEiN-ProtocolTests */,
 				F3CDCC5A1B2F2BB500D7EB17 /* Products */,
+				C1CAE2E7B752E5F049C7813E /* Pods */,
+				80100A0C90546B852B05DA84 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -122,9 +146,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F3CDCC7B1B2F2BB500D7EB17 /* Build configuration list for PBXNativeTarget "STEiN-Protocol" */;
 			buildPhases = (
+				2BE86882A1EC468CC946F1FE /* Check Pods Manifest.lock */,
 				F3CDCC551B2F2BB500D7EB17 /* Sources */,
 				F3CDCC561B2F2BB500D7EB17 /* Frameworks */,
 				F3CDCC571B2F2BB500D7EB17 /* Resources */,
+				F9ACBC25C2B1B87DFF03D2EA /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -209,6 +235,39 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2BE86882A1EC468CC946F1FE /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		F9ACBC25C2B1B87DFF03D2EA /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-STEiN-Protocol/Pods-STEiN-Protocol-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		F3CDCC551B2F2BB500D7EB17 /* Sources */ = {
@@ -344,6 +403,7 @@
 		};
 		F3CDCC7C1B2F2BB500D7EB17 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 607C367BCD1C18EFE1C7EBAD /* Pods-STEiN-Protocol.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "STEiN-Protocol/Info.plist";
@@ -354,6 +414,7 @@
 		};
 		F3CDCC7D1B2F2BB500D7EB17 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 595B2D11C53A0C49FEB324F8 /* Pods-STEiN-Protocol.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "STEiN-Protocol/Info.plist";
@@ -415,6 +476,7 @@
 				F3CDCC7D1B2F2BB500D7EB17 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F3CDCC7E1B2F2BB500D7EB17 /* Build configuration list for PBXNativeTarget "STEiN-ProtocolTests" */ = {
 			isa = XCConfigurationList;
@@ -423,6 +485,7 @@
 				F3CDCC801B2F2BB500D7EB17 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
